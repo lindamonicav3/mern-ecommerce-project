@@ -1,16 +1,56 @@
-# React + Vite
+# Frontend - MERN E-commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the MERN E-commerce web application built using React.
+It provides the user interface for browsing products, managing the cart, and placing orders.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- React Router
+- Context API
+- Axios
+- Tailwind
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User registration and login
+- Product listing
+- Product details page
+- Add to cart
+- Cart management
+- Checkout page
+- Order history
+- Responsive UI
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+frontend
+│
+├── public
+├── src
+│ ├── components
+│ ├── pages
+│ ├── context
+│ ├── services
+│ ├── assets
+│ └── App.js
+│
+└── package.json
+
+## Installation
+
+1. Navigate to frontend folder
+
+cd frontend
+
+2. Install dependencies
+
+npm install
+
+3. Start the development server
+
+npm start
+
+The application will run at:
+
+http://localhost:3000
